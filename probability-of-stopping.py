@@ -48,7 +48,7 @@ def element_in_string(string, iterable):
 
 def max_index_of_character(string, character):
     if character not in string:
-        return None
+        return -1
     else:
         for i in range(0, len(string)):
             if string[i] == character:
